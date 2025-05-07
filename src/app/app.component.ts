@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { SkyAlertModule } from '@skyux/indicators'; // Import SkyAlertModule here
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true, // Keep this if your project is standalone
+  imports: [SkyAlertModule], // Add SkyAlertModule to the imports array here
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
