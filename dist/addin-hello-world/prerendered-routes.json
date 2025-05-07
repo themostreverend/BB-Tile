@@ -1,0 +1,6 @@
+{
+  "routes": {
+    "/addin-hello-world": {},
+    "/addin-hello-world/my-tile": {}
+  }
+}
